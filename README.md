@@ -31,8 +31,13 @@
             a parent component can send data to a child component.
             <Component key=value />
             booleans are used within turnery operator
+
   - propTypes - a mechanism that ensures that the passed value is of correct datatype.
             age: PropTypes.number
+
   - defaultProps - default values for props in case they are not passed from the parent component
             name: Guest
-            Note: default values are passed directly into component function 
+            Note: default values are passed directly into component function
+
+  - conditional rendering = allows to control what gets rendered in your app based on certain conditions
+    (show/hide/change components)

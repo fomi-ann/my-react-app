@@ -7,6 +7,7 @@ import ButtonModule from './ButtonModule/ButtonModule.jsx'
 import ButtonInline from './components/ButtonInline.jsx'
 
 import Student from './components/Student.jsx'
+import UserGreeting from './components/UserGreeting.jsx'
 
 function App() {
   return(
@@ -16,20 +17,23 @@ function App() {
       <Card />
       <Card />
       <Card />
-       <hr></hr>
+       <hr />
       <ButtonExternal />
       <ButtonModule />
       <ButtonInline />
-      <hr></hr>
+      <hr />
       <Food />
       <Food />
       <Food />
-      <hr></hr>
+      <hr />
       <Student name="Spongebob" age={30} isStudent="true"/>
       <Student name="Patrick" age={42} isStudent={false}/>
       <Student name="Squidward" age={50} isStudent={false}/>
       <Student name="Sandy" age={27} isStudent={true}/>
       <Student name='Lary'/>
+      <hr />
+      <UserGreeting isLoggedIn={true} />
+      <hr />
       <Footer />
     </>
   );

@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
 function Student({name = "Guest",age = 0,isStudent = false}){
     return(
