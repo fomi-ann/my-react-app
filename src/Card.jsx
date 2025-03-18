@@ -1,4 +1,4 @@
-import profileImg from '/public/vivid-blurred-colorful-background_58702-2545.avif'
+import profileImg from './assets/vivid-blurred-colorful-background_58702-2545.avif'
 
 function Card() {
     return(
